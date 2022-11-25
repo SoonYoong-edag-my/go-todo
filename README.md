@@ -7,3 +7,4 @@
 ## Run Go Rest
 * Run go `go mod tidy` to resolve dependencies
 * Start the server by using `/go-rest>go run main.go`, service should be running at **http://localhost:8080**
+* If you get error saying C compiler not installed you will need to install one. https://jmeubank.github.io/tdm-gcc/download/
