@@ -1,7 +1,16 @@
 # go-todo
 
+```bash
 ## Run Frontend
-`/frontend>npm run dev`
+$ cd frontend
+$ npm install
+$ npm run dev
+```
 
-## Run Go Rest
-`/go-rest>go run main.go`
+```bash
+## Run Backend - Go Rest
+$ cd go-rest
+$ go mod tidy
+$ go run main.go
+```
+
