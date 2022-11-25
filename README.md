@@ -1,5 +1,6 @@
 # go-todo
 
+### Frontend
 * tech
   * next.js
   * Tailwind CSS
@@ -9,6 +10,8 @@ $ cd frontend
 $ npm install
 $ npm run dev
 ```
+
+### Rest
 * tech
   * Go Gonic - as REST framework
   * GORM - as ORM
