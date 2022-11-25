@@ -2,14 +2,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/go-rest/lib"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"net/http"
 )
 
 func main() {
-	lib.Demo()
 	router := gin.Default()
 	router.Use(CORSMiddleware())
 
